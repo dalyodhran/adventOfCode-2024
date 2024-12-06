@@ -13,7 +13,7 @@ class PartTwoTest {
     @org.junit.jupiter.api.Test
     public void testPartTwo() throws IOException {
         PartTwo partTwo = new PartTwo();
-        String fileName = "src/test/java/org/example/dayOne/inputPartOne.txt";
+        String fileName = "src/test/java/org/example/dayOne/inputPartOne.txt.txt";
         String locationId = FileReader.readFile(fileName);
         List<Integer> leftLocationId = new ArrayList<>();
         List<Integer> rightLocationId = new ArrayList<>();
